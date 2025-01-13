@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Téléchargement Fichier d'Installation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .download-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .download-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            min-width: 250px;
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .maintenance-btn {
+            background-color: #2196F3;
+        }
+
+        .maintenance-btn:hover {
+            background-color: #1976D2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Téléchargement Fichier d'Installation</h1>
+    <div class="download-container">
+        <a href="ATELECHARGER.zip" class="download-btn" download>TÉLÉCHARGEZ ICI</a>
+        <a href="COPIEetEXTRAIT.zip" class="download-btn" download>TÉLÉCHARGEZ ICI</a>
+        <a href="https://get.teamviewer.com/sgisupport" class="download-btn maintenance-btn">TÉLÉMAINTENANCE</a>
+    </div>
+</body>
+</html> 
