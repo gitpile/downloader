@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Téléchargements - Installation Coloria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .download-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .download-btn {
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.3s ease;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .teamviewer-btn {
+            background-color: #0d6efd;
+        }
+        .teamviewer-btn:hover {
+            background-color: #0b5ed7;
+        }
+
+        .adobe-btn {
+            background-color: #ed2224;
+        }
+        .adobe-btn:hover {
+            background-color: #d41619;
+        }
+
+        .guide-btn {
+            background-color: #198754;
+        }
+        .guide-btn:hover {
+            background-color: #157347;
+        }
+
+        .setup-btn {
+            background-color: #6c757d;
+        }
+        .setup-btn:hover {
+            background-color: #5c636a;
+        }
+
+        .url-btn {
+            background-color: #ffc107;
+            color: #000;
+        }
+        .url-btn:hover {
+            background-color: #ffca2c;
+        }
+
+        .btn-text {
+            flex-grow: 1;
+            text-align: left;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Installation Coloria - Téléchargements</h1>
+    <div class="download-container">
+        <a href="https://get.teamviewer.com/sgisupport" target="_blank" class="download-btn teamviewer-btn">
+            <span class="btn-text">TeamViewer - Support à distance</span>
+            <span>↓</span>
+        </a>
+        
+               
+        <a href="Cosoluce_Guide_Utilisateur_COLORIA_V2 1.pdf" target="_blank" class="download-btn guide-btn" download>
+            <span class="btn-text">Guide Utilisateur Coloria</span>
+            <span>↓</span>
+        </a>
+        
+        <a href="Reader_fr_install.exe" target="_blank"class="download-btn setup-btn" download>
+            <span class="btn-text">Adobe Reader - Installation locale</span>
+            <span>↓</span>
+        </a>
+        
+        <a href="Setup-RemoteAppClient.exe" target="_blank"class="download-btn setup-btn" download>
+            <span class="btn-text">Client Remote App - Installation</span>
+            <span>↓</span>
+        </a>
+        
+        <a href="coloria.cosoluce.fr.url" target="_blank"class="download-btn url-btn" download>
+            <span class="btn-text">Raccourci Coloria</span>
+            <span>↓</span>
+        </a>
+    </div>
+</body>
+</html> 
